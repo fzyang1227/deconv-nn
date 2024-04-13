@@ -5,18 +5,18 @@ h2 {
   margin-top: 3ex;
 }
 /* Deep blues */
-.color-primary-0 { color: #233BF5 }
-.color-primary-1 { color: #3314DE }
-.color-primary-2 { color: #7717FA }
-.color-primary-3 { color: #1461DE }
-.color-primary-4 { color: #17A9FA }
+.color-primary-0 { color: #0d6efd }
+.color-primary-1 { color: #6610f2 }
+.color-primary-2 { color: #6f42c1 }
+.color-primary-3 { color: #20c997 }
+.color-primary-4 { color: #0dcaf0 }
 
 .nd-pageheader {
   padding: 2rem 15px;
   margin-bottom: 1.5rem;
   color: white;
   text-align: center;
-  background-color: #233BF5;
+  background-color: #0d6efd;
 }
 
 .nd-pageheader a, .nd-pageheader a.likelink {
@@ -28,7 +28,7 @@ h2 {
   margin-top: 1.5rem;
   padding: 1rem;
   text-align: center;
-  background-color: #233BF5;
+  background-color: #0d6efd;
 }
 
 .nd-pagefooter a {
