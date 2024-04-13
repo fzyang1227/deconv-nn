@@ -3,7 +3,7 @@
 - Jaeson Pyeon
 - Felix Yang
 
-https://openaccess.thecvf.com/content_iccv_2015/papers/Noh_Learning_Deconvolution_Network_ICCV_2015_paper.pdf
+https://ieeexplore.ieee.org/document/7410535
 
 Copy this template on github, and rename the repo to the name of your project.
 
