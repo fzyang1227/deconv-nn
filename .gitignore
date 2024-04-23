@@ -6,3 +6,4 @@ models/
 ShelfNet18_realtime/*
 !ShelfNet18_realtime/analysis.ipynb
 !ShelfNet18_realtime/analysis_simple.ipynb
+!ShelfNet18_realtime/figures/
