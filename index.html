@@ -37,6 +37,8 @@
 </div>
 <div class="row">
 <div class="col">
+            
+<p style="text-align: center; font-style: italic">Felix Yang <a href= "mailto: yang.fel@northeastern.edu">(yang.fel@northeastern.edu)</a>, Jaeson Pyeon <a href="mailto: pyeon.j@northeastern.edu">(pyeon.j@northeastern.edu)</a></p>
 
 <h2>Introduction </h2>
 <p>	The constant demand for real time applications specifically in the fields of autonomous driving, mobile navigation, and interactive systems has generated a need for efficient and fast image processing techniques. Semantic segmentation, a process by which parts of images are categorized into defined classes, is one relevant area to the advancements in this field. This project explores the capabilities of ShelfNet, a neural network architecture designed specifically for real time semantic segmentation. ShelfNet appeared to offer a balance between computational efficiency and segmentation accuracy that could make it suitable for embedded systems. This project seeks to address the question of whether or not the ShelfNet architecture can maintain a high level of performance in semantic segmentation on the Cityscapes dataset through various inference speeds. Additionally, this project investigates the adaptability of this model to varying constraints, in particular operational efficiency and speed, ultimately hoping to validate ShelfNet’s practicality for real world applications.</p>
@@ -117,6 +119,8 @@
 
 <p>Our project sought to explore the ShelfNet architecture for real-time semantic segmentation, specifically focusing on its adaptability to varying constraints and operational efficiency. We found that the ShelfNet model with reduced channels demonstrated a significant increase in inference speed, making it a promising candidate for real-time applications. However, this came at the cost of reduced segmentation accuracy, as evidenced by the lower mIoU scores and training losses. The visual outputs of the Simple ShelfNet model also showed a noticeable decrease in segmentation quality compared to the original ShelfNet model. Our reduction in channels to 1/4 of its original quality may not have been successful, but further training and research could be done to check the success of such models with decreases in channels. Additionally, different backbones can be utilized in our training or perhaps even freezing the weights could aid in training speed of our model. </p>
 
+<hr>
+
 <h3>References</h3>
 
 <p><a name="zhuang-2018">[1]</a> <a href="https://arxiv.org/abs/1811.11254"
@@ -130,14 +134,6 @@
   <em>The Cityscapes Dataset for Semantic Urban Scene Understanding.</em></a>
   Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.
 </p>
-
-
-<h2>Team Members</h2>
-              
-<ol>
-  <li>Felix Yang -- (<a href= "mailto: yang.fel@northeastern.edu">yang.fel@northeastern.edu</a>)</li>
-  <li>Jaeson Pyeon -- (<a href="mailto: pyeon.j@northeastern.edu">pyeon.j@northeastern.edu</a>)</li>
-</ol>
 
   
 </div><!--col-->
